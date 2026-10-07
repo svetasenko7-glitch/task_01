@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #f5f5f5;
+    color: #222;
+}
+
+h1,
+h3 {
+    color: #2c3e50;
+}
+
+h1 {
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 8px;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 10px 15px;
+    margin: 0 0 20px 0;
+    background: #2c3e50;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.nav li {
+    margin: 0;
+}
+
+.nav a {
+    display: block;
+    padding: 8px 14px;
+    color: #ecf0f1;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.nav a:hover {
+    background: #34495e;
+}
+
+.nav a strong {
+    color: #f1c40f;
+}
+
+.nav img {
+    vertical-align: middle;
+}
+
+#top+ul,
+p a[href^="#"] {
+    color: #2980b9;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 10px 0;
+}
+
+table,
+td,
+th {
+    border: 1px solid #888;
+}
+
+td {
+    padding: 8px;
+}
+
+/* Изображения */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    max-width: 700px;
+}
+
+form p {
+    margin: 8px 0;
+}
+
+input[type="Text"],
+input[type="Number"],
+input[type="date"],
+input[type="Password"],
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    padding: 5px 8px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+input[type="Submit"],
+input[type="Reset"],
+input[type="button"] {
+    padding: 6px 14px;
+    border: none;
+    border-radius: 4px;
+    background: #2980b9;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="Submit"]:hover,
+input[type="button"]:hover {
+    background: #1c5d8a;
+}
+
+input[type="Reset"] {
+    background: #95a5a6;
+}
+
+input[type="Reset"]:hover {
+    background: #7f8c8d;
+}
+
+pre {
+    background: #fff;
+    border-left: 4px solid #2980b9;
+    padding: 12px 16px;
+    white-space: pre-wrap;
+    font-family: Consolas, monospace;
+    font-size: 13px;
+    border-radius: 4px;
+    overflow-x: auto;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+a[href="#top"] {
+    display: inline-block;
+    margin: 10px 0;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a[href="#top"]:hover {
+    text-decoration: underline;
+}
