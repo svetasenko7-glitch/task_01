@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>DOM_JS. Считываем информацию из DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <ul id="nav" class="nav">
+      <li><a href="index.html" target="_self">Главная</a></li>
+      <li><a href="info.html" target="_self">Информация</a></li>
+      <li><a href="forms.html" target="_self">Формы</a></li>
+      <li>
+        <a href="dom.html" target="_self"><strong>DOM</strong></a>
+      </li>
+      <li>
+        <a href="algorithm.html" target="_self">Алгоритмическая задача</a>
+      </li>
+      <li>
+        <a href="http://www.hse.ru" target="_blank">Внешний сайт</a>
+      </li>
+      <li>
+        <a href="http://www.hse.ru" target="_blank"
+          ><img src="/images/logo-hse.png"
+        /></a>
+      </li>
+    </ul>
+
+    <a id="top"><h4>DOM_JS. Считываем информацию из DOM</h4></a>
+
+    <p>Паспорт выдан: ОУФМС России по г. Санкт-Петербург</p>
+    <p>Дата выдачи: 24.03.2020</p>
+    <p>Фамилия: <span id="lastname">Сенько</span></p>
+    <p>Имя: <span id="firstname">Светлана</span></p>
+    <p>Год рождения: <span id="year">2000</span></p>
+    <br />
+    <a id="edit"><h4>Изменяем кириллицу на латиницу по клику</h4></a>
+
+    <p>Фамилия: <span id="my-lastname">Сенько</span></p>
+    <p>Имя: <span id="my-firstname">Светлана</span></p>
+    <p>
+      Год рождения: <span id="my-year">2000</span>,
+      <span id="my-month">Январь</span>
+    </p>
+
+    <p><input id="translate" type="button" value="Перевести на латиницу" /></p>
+    <br />
+    <img src="/images/console.png" width="800" />
+    <script src="js/dom.js"></script>
+  </body>
+</html>
